@@ -38,11 +38,14 @@ ul{
 	
 }
 
-.player_one{
+.player_one, .player_two{
 	display: flex;
 	justify-content: center;
     align-items: center;
 	padding: 15px
+	background-color: white;
+	border-radius: 10px;   
+	margin: 10px
 }
 
 
@@ -59,8 +62,8 @@ p{
 audio{
 	width: 100%;
 }
-.player_two{
-	padding: 10px;
-}
 
+ .player_two{
+	 display: block;
+ }
 
