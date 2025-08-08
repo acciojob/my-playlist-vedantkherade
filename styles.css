@@ -31,7 +31,7 @@ ul{
 .nowplaying-card{
 	width: 80%;
 	
-	background-color: white;
+	background-color: rgb(255, 255, 255);
 	margin: 0 auto;
 	border: 2px solid black;
 	border-radius: 10px;
@@ -43,7 +43,6 @@ ul{
 	justify-content: center;
     align-items: center;
 	padding: 15px
-	background-color: rgb(255, 255, 255);
 	border-radius: 10px;   
 	margin: 10px
 }
@@ -65,5 +64,10 @@ audio{
 
  .player_two{
 	 display: block;
+	 background-color: rgb(255, 255, 255);
  }
+
+.player_two{
+	background-color: rgb(255, 255, 255);
+}
 
