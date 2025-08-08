@@ -1,73 +1,59 @@
-/*  your css code here. If applicable */
-body{
-	background-color: rgb(204, 204, 204);
-	font-family: sans-serif;
+body {
+  background-color: rgb(204, 204, 204);
+  font-family: sans-serif;
 }
 
-h1, h2{
-	text-align: center
+h1, h2 {
+  text-align: center;
 }
 
-a{
-	text-decoration-line: none;
+a {
+  text-decoration-line: none;
 }
 
-li{
-	list-style-type: none;
+li {
+  list-style-type: none;
 }
 
-ul{
-	padding: 15px;
+ul {
+  padding: 15px;
 }
 
-.playlist-container{
-	width: 90%;
-	background-color: rgb(255, 255, 255);;
-	margin: 0 auto;
-	border: 2px solid black;
-	border-radius: 10px;
-	
-}
-.nowplaying-card{
-	width: 80%;
-	
-	background-color: rgb(255, 255, 255);
-	margin: 0 auto;
-	border: 2px solid black;
-	border-radius: 10px;
-	
+.playlist-container {
+  width: 90%;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
-.player_one, .player_two{
-	display: flex;
-	justify-content: center;
-    align-items: center;
-	padding: 15px
-	border-radius: 10px;   
-	margin: 10px
+.nowplaying-card {
+  width: 80%;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
-
-
-video{
-      width: 100%;
-      height: auto;
+.player_one, .player_two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
 }
 
-p{
-	margin: 10px;
+video {
+  width: 100%;
+  height: auto;
 }
 
-audio{
-	width: 100%;
+p {
+  margin: 10px;
 }
 
- .player_two{
-	 display: block;
-	 background-color: rgb(255, 255, 255);
- }
-
-.player_two{
-	background-color: rgb(255, 255, 255);
+audio {
+  width: 100%;
 }
-
